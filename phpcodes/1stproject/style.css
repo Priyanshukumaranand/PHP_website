@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 500vh;
+    background-color: dodgerblue;
+    padding: 24px;
+    margin: 34px;
+    border-radius: 2%;
+  
+}
+.container h3{
+   
+    color:darkblue;
+    font-size: 34px;
+    font-family: 'Alkatra', 'cursive';
+    font-family: 'Nunito Sans', sans-serif;
+    height: 50px;
+}
+.container p{
+    font-size: 30px;
+    color:midnightblue ;
+}
+#desc{
+    font-style: italic;
+    font-size: larger;
+}
+input, textarea{
+     width:70%;
+     margin: 4px 50px;
+     text-align: center;
+     font-size: medium;
+     border-radius: 10px;
+     border-color: blue;
+     padding: 7px;
+     background-color:rgb(198, 230, 240);
+}
+form{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    align-self: center;
+    color: #082970;
+    background-color:rgb(198, 230, 240);
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+.cuba{
+
+    height: 300px;
+    width: 100%;
+}
+.submitted{
+    color: green;
+    background-color:darkgrey;
+    font-size: 24px;
+    font-style: italic;
+}
